@@ -1,0 +1,189 @@
+body {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  margin: 0;
+}
+
+.container {
+  position: relative; 
+  margin-left: 1%;
+}
+
+.whats-going-on {
+  display: block;
+  background-color: lightgrey;
+  width: 408px;
+  height: 36px;
+  margin-bottom: 5px;
+}
+
+label {
+  font-size: 1.5em;
+  padding-left: 5px;
+  
+}
+
+.status-post {
+  width: 299px;
+  height: 100px;
+  margin-right: 1px;
+}
+
+.btn-post {
+  color: white;
+  width: 100px;
+  height: 105px;
+  border-style: none;
+  background-color: #b2cdfc;
+  margin-left: 6px;
+  position: absolute;
+  left: 303px;
+
+}
+
+.comments-title {
+  margin-top: -5px;
+  margin-bottom: 5px;
+  background-color: lightgrey;
+  width: 408px;
+  height: 20px;
+  padding-left: 5px;
+}
+
+.comment-section {
+  margin-top: 10px;
+  width: 413px;
+  height: 107px;
+  margin-right: 1px;
+  background-color: grey;
+  display: inline-block;
+} 
+
+.comment {
+  width: 295px;
+  height: 77px;
+  margin-right: 1px;
+  margin-left: 4px;
+}
+
+.btn-reply {
+  color: white;
+  width: 100px;
+  height: 25px;
+  border-style: none;
+  background-color: #b2cdfc;
+  margin-left: 6px;
+  position: absolute;
+  left: 303px;
+  top: 177px;
+}
+
+.btn-reply:hover,.btn-post:hover, .btn-like:hover, .btn-dislike:hover, .btn-delete:hover {
+  background-color: #79a8fa;
+}
+
+.btn-like {
+  color: white;
+  width: 48px;
+  height: 25px;
+  border-style: none;
+  background-color: #b2cdfc;
+  margin-left: 6px;
+  position: absolute;
+  left: 303px;
+  top: 207px;
+}
+
+.btn-dislike {
+  color: white;
+  width: 48px;
+  height: 25px;
+  border-style: none;
+  background-color: #b2cdfc;
+  margin-left: 6px;
+  position: absolute;
+  left: 355px;
+  top: 207px;
+}
+
+.btn-delete {
+  color: white;
+  width: 100px;
+  height: 25px;
+  border-style: none;
+  background-color: #b2cdfc;
+  margin-left: 6px;
+  position: absolute;
+  left: 303px;
+  top: 236px;
+}
+
+.btn-like img {
+  height: 20px;
+}
+
+.btn-dislike img {
+  height: 20px; 
+}
+
+.navbar{
+  text-align: right;
+  background-color: #79a8fa;
+  width: 100%;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-right: 10%;
+}
+
+.search {
+  position: relative;
+  top:40px;
+  left: -23px;
+  margin-right: 86%;
+  display: inline-block;
+  margin-top: 20px;
+  width: 150px;
+  height: 20px;
+}
+
+h1 {
+  position: absolute;
+  left: 20px;
+  font-size: 1.8em;
+  color: white;
+}
+
+ul a, h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+ul a:hover {
+  color: #2d2d2d;
+}
+
+
+
+.search-container {
+  width: 100%;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

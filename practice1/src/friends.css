@@ -1,0 +1,40 @@
+.friends {
+    position: absolute;
+    text-align: center;
+    top: 2px;
+    right: 20px;
+    width: 300px;
+    height: 800px;
+    background-color: lightgrey;
+}
+
+.friends-text {
+	background-color: grey;
+	color: white;
+	position: absolute;
+	top: -20px;
+	height: 30px;
+	width: 100%;
+	line-height: 20px;
+	padding-top: 10px;
+	font-size: 1.3em;
+}
+
+.your-profile {
+	text-align: center;
+	color: white;
+	background-color: #b2cdfc;
+	position: absolute;
+	top: 22px;
+	height: 30px;
+	width: 100%;
+	line-height: 20px;
+	padding-top: 10px;
+	font-size: 1em;
+}
+
+.profile {
+	height: 200px;
+	width: 100%;
+	background-color: Midnightblue;
+}
